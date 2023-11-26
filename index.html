@@ -9,12 +9,28 @@
 	<link href="css/font-awesome.min.css" rel="stylesheet" >
 	<link href="css/global.css" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet">
-	<link rel="icon" href="img/pincitas.png" type="img/pincitas.png">
+	<link rel="icon" href="img/pincitasnavideno.png" type="img/pincitasnavideno.png">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="snowfall.js"></script>
+	<script>
+	
+	let snowfall = new Snowfall({
+   		count: 100, // number of snowflakes
+    	minRadius: 10, // minimum radius of a snowflake in pixels
+    	maxRadius: 30, // maximum radius of a snowflake in pixels
+    	minSpeed: 3, // minimum speed of a snowflake in pixels per frame
+    	maxSpeed: 10, // maximum speed of a snowflake in pixels per frame
+    	text: "\u2744", // text for a snowflake (can be any symbol or text)
+    	color: "#ffffff", // color of a snowflake in HEX format
+    	zIndex: "10" // z-index for the snowflakes canvas
+	});
+
+	</script>
 
 </head>
 <body>
+
 
 <section id="header">
 <div id="signup-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
@@ -62,7 +78,7 @@
 <nav class="navbar navbar-expand-md navbar-light" id="navbar_sticky">
   <div class="container-fluid">
 	<a class="navbar-brand fs-4 p-0 fw-bold text-white text-uppercase" href="index.html">
-		<img src="img/pincitas.png" alt="Logo" class="me-1 col_light fs-1 align-middle" style="width: 50px; height: 50px;">
+		<img src="img/pincitasnavideno.png" alt="Logo" class="me-1 col_light fs-1 align-middle" style="width: 50px; height: 50px;">
 		Cines Rosalía
 	</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -111,29 +127,29 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/openGrande.jpg" class="d-block w-100" alt="...">
+      <img src="cartelera/snoopBackground.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-md-block">
-        <h5 class="text-uppercase bg_red d-inline-block p-2 text-white">Estreno</h5>
-		<h1>Oppenheimer</h1>
-		<p>Chi Chi Chi. Inauguramos el cine Rosalía con este peliculón de Nolan.</p>
+        <h5 class="text-uppercase bg_red d-inline-block p-2 text-white">NOVEDAD</h5>
+		<h1>Navidad</h1>
+		<p>HO HO HO. Ha llegado la navidad y te esperamos en Cines Rosalía con un maratón de los clásicos más apropiados para estas fechas</p>
 
       </div>
     </div>
     <div class="carousel-item">
-      <img src="cartelera/desayuno Carrusel.jpg" class="d-block w-100" alt="...">
+      <img src="cartelera/fondoDieHard.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-md-block">
         <h5 class="text-uppercase bg_red d-inline-block p-2 text-white">No te lo pierdas</h5>
-		<h1>“It may be normal, darling; but I’d rather be natural”</h1>
-		<p>Próximamente disfrutaremos del encanto de Audrey Hepburn con este retrato inmortal de la inigualable Holly Golightly.</p>
+		<h1>“Yippee-Ki-Yay, Motherfucker!”</h1>
+		<p>Disfruta de una de las más célebres actuaciones de Bruce Willis en este clásico atemporal navideño.</p>
         
       </div>
     </div>
     <div class="carousel-item">
-      <img src="cartelera/harryCarrusel.jpg" class="d-block w-100" alt="...">
+      <img src="cartelera/homealonback.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-md-block">
         <h5 class="text-uppercase bg_red d-inline-block p-2 text-white">No te lo pierdas</h5>
-		<h1>Las cicatrices pueden ser útiles...</h1>
-		<p>Nos sumergiremos en el mundo mágico a través de la saga de este pequeño mago</p>
+		<h1>“I Made My Family Disappear!”</h1>
+		<p>Se nos ha quedado solo el niño en Navidad... Gracias a Dios que nosotros tenemos a Sebastian que no dejaría a un niño solo nunca</p>
         
       </div>
     </div>
@@ -178,19 +194,19 @@
 	     <div class="col-md-3">
 		  <div class="upcome_2i1 clearfix position-relative">
 		   <div class="upcome_2i1i clearfix">
-		    <img src="cartelera/desayuno.jpg" class="w-100" alt="abc">
+		    <img src="cartelera/dieHard.jpg" class="w-100" alt="abc">
 		   </div>
 		   <div class="upcome_2i1i1 clearfix position-absolute top-0 text-center w-100">
-		    <h6 class="text-uppercase"><a class="button_1" href="https://www.imdb.com/video/vi786734361/?playlistId=tt0054698">Ver Trailer</a></h6>
-			<h6 class="text-uppercase mb-0"><a class="button_2" href="https://www.imdb.com/title/tt0054698/">Ver detalles</a></h6>
+		    <h6 class="text-uppercase"><a class="button_1" href="https://www.imdb.com/video/vi3895704089/?playlistId=tt0095016">Ver Trailer</a></h6>
+			<h6 class="text-uppercase mb-0"><a class="button_2" href="https://www.imdb.com/title/tt0095016/">Ver detalles</a></h6>
 		   </div>
 		  </div>
 		   <div class="upcome_2i_last bg-white p-3">
 		     <div class="upcome_2i_lasti row">
 			  <div class="col-md-9 col-9">
 			   <div class="upcome_2i_lastil">
-			    <h5><a href="#">Desayuno Con Diamantes</a></h5>
-				<h6 class="text-muted">Romántico, Drama</h6>
+			    <h5><a href="#">Jungla de Cristal</a></h5>
+				<h6 class="text-muted">Acción</h6>
 				
 			   </div>
 			  </div>
@@ -201,19 +217,20 @@
 		 <div class="col-md-3">
 		  <div class="upcome_2i1 clearfix position-relative">
 		   <div class="upcome_2i1i clearfix">
-		    <img src="cartelera/piedraFilosofal.jpg" class="w-100" alt="abc">
+		    <img src="cartelera/gremlins.jpg" class="w-100" alt="abc">
 		   </div>
 		   <div class="upcome_2i1i1 clearfix position-absolute top-0 text-center w-100">
-		    <h6 class="text-uppercase"><a class="button_1" href="https://www.imdb.com/video/vi3115057433/?playlistId=tt0241527">Ver Trailer</a></h6>
-			<h6 class="text-uppercase mb-0"><a class="button_2" href="https://www.imdb.com/title/tt0241527/">Ver Detalles</a></h6>
+		    <h6 class="text-uppercase"><a class="button_1" href="https://www.imdb.com/video/vi2626338585/?playlistId=tt0087363">Ver Trailer</a></h6>
+			<h6 class="text-uppercase mb-0"><a class="button_2" href="https://www.imdb.com/title/tt0087363/">Ver Detalles</a></h6>
 		   </div>
 		  </div>
 		   <div class="upcome_2i_last bg-white p-3">
 		     <div class="upcome_2i_lasti row">
 			  <div class="col-md-9 col-9">
 			   <div class="upcome_2i_lastil">
-			    <h5><a href="#">Harry Potter y La Piedra Filosofal</a></h5>
-				<h6 class="text-muted">Fantasía, Suspense</h6>
+			    <h5><a href="#">Gremlins</a></h5>
+				<h6 class="text-muted">Fantasía, Comedia</h6>
+				<h6>Recomendación de Norberto</h6>
 				
 			   </div>
 			  </div>
@@ -224,19 +241,19 @@
 		 <div class="col-md-3">
 		  <div class="upcome_2i1 clearfix position-relative">
 		   <div class="upcome_2i1i clearfix">
-		    <img src="cartelera/barbie.jpg" class="w-100" alt="abc">
+		    <img src="cartelera/homealone.jpg" class="w-100" alt="abc">
 		   </div>
 		   <div class="upcome_2i1i1 clearfix position-absolute top-0 text-center w-100">
-		    <h6 class="text-uppercase"><a class="button_1" href="https://www.imdb.com/video/vi945734681/?playlistId=tt1517268">Ver Trailer</a></h6>
-			<h6 class="text-uppercase mb-0"><a class="button_2" href="https://www.imdb.com/title/tt1517268/">Ver Detalles</a></h6>
+		    <h6 class="text-uppercase"><a class="button_1" href="https://www.imdb.com/video/vi490651929/?playlistId=tt0099785">Ver Trailer</a></h6>
+			<h6 class="text-uppercase mb-0"><a class="button_2" href="https://www.imdb.com/title/tt0099785/">Ver Detalles</a></h6>
 		   </div>
 		  </div>
 		   <div class="upcome_2i_last bg-white p-3">
 		     <div class="upcome_2i_lasti row">
 			  <div class="col-md-9 col-9">
 			   <div class="upcome_2i_lastil">
-			    <h5><a href="#">Barbie</a></h5>
-				<h6 class="text-muted">Comedia, Drama</h6>
+			    <h5><a href="#">Solo en casa</a></h5>
+				<h6 class="text-muted">Comedia, Familiar</h6>
 				
 			   </div>
 			  </div>
@@ -247,19 +264,19 @@
 		 <div class="col-md-3">
 		  <div class="upcome_2i1 clearfix position-relative">
 		   <div class="upcome_2i1i clearfix">
-		    <img src="cartelera/caballeroOscuro.jpg" class="w-100" alt="abc">
+		    <img src="cartelera/polarExpress.jpg" class="w-100" alt="abc">
 		   </div>
 		   <div class="upcome_2i1i1 clearfix position-absolute top-0 text-center w-100">
-		    <h6 class="text-uppercase"><a class="button_1" href="https://www.imdb.com/video/vi324468761/?playlistId=tt0468569">Ver Trailer</a></h6>
-			<h6 class="text-uppercase mb-0"><a class="button_2" href="https://www.imdb.com/title/tt0468569/">Ver Detalles</a></h6>
+		    <h6 class="text-uppercase"><a class="button_1" href="https://www.imdb.com/video/vi2954167065/?playlistId=tt0338348">Ver Trailer</a></h6>
+			<h6 class="text-uppercase mb-0"><a class="button_2" href="https://www.imdb.com/title/tt0338348/">Ver Detalles</a></h6>
 		   </div>
 		  </div>
 		   <div class="upcome_2i_last bg-white p-3">
 		     <div class="upcome_2i_lasti row">
 			  <div class="col-md-9 col-9">
 			   <div class="upcome_2i_lastil">
-			    <h5><a href="#">El Caballero Oscuro</a></h5>
-				<h6 class="text-muted">Acción, Suspense</h6>
+			    <h5><a href="#">Polar Express</a></h5>
+				<h6 class="text-muted">Animación, Aventura</h6>
 				
 			   </div>
 			  </div>
@@ -433,10 +450,7 @@
 				</span>
 			   </div>
 			  </div>
-			  <div class="col-md-3 p-0 col-3">
-			   <div class="upcome_2i_lastir pt-3">
-			     <span><a class="col_red rounded" href="#"><i class="fa fa-shopping-cart"></i></a></span>
-			   </div>
+			 
 			  </div>
 			 </div>
 		   </div>
@@ -975,7 +989,7 @@
 	  <div class="col-md-5">
 	   <div class="release_1i1 text-center">
 	    <h6 class="text-uppercase bg_red d-inline-block p-2 pe-4 ps-4 text-white">NUEVO</h6>
-		<h1 class="text-uppercase font_50 text-white mt-3">¿No encuentras tu película favorita?</h1>
+		<h1 class="text-uppercase font_50 text-white mt-3">Ho HO HO ¿No encuentras tu película favorita?</h1>
 		<h4 class="text-white mt-3 mb-0">Envíanos tus sugerencias y la pondremos en cartelera</h4>
 		<h6 class="text-white mt-3 mb-0">Se aceptarán sugerencias durante la primera semana del mes y luego se hará votación para elegir las películas que saldrán en cartelera</h6>
 		<h6 class="text-white mt-3 mb-0"></h6>
@@ -1083,49 +1097,49 @@
 	    <div class="col-md-4">
 		 <div class="events_1i1 clearfix position-relative">
 		  <div class="events_1i1i clearfix">
-		    <img src="cartelera/desayuno.jpg" alt="abc" class="w-100">
+		    <img src="cartelera/dieHard.jpg" alt="abc" class="w-100">
 		  </div>
 		  <div class="events_1i1i1 clearfix position-absolute bottom-0 text-center w-100">
-		    <h6 class="mb-0"><a class="button_1" href="https://docs.google.com/forms/d/e/1FAIpQLSdAboKja-YKT1cBRc2huBX4oe9o-W__s1myEuFU6tPScEx_WA/viewform?usp=sf_link">Reservar ahora </a></h6>
+		    <h6 class="mb-0"><a class="button_1" href="https://forms.gle/dzseVBQwzsb4KGRD6">Reservar ahora </a></h6>
 		  </div>
 		 </div>
 		 <div class="events_1i2 clearfix p-3 pt-4 pb-4 bg-light">
-		  <h5 class="text-uppercase"><a href="#">Desayuno con Diamantes</a></h5>
+		  <h5 class="text-uppercase"><a href="#">Jungla de Cristal</a></h5>
 		  
 			 <hr>
-			 <h6 class="mb-0">3 Noviembre <span class="pull-right">22:00</span></h6>
+			 <h6 class="mb-0">Diciembre <span class="pull-right">22:00</span></h6>
 		 </div>
 		</div>
 		<div class="col-md-4">
 		 <div class="events_1i1 clearfix position-relative">
 		  <div class="events_1i1i clearfix">
-		    <img src="cartelera/piedraFilosofal.jpg" alt="abc" class="w-100">
+		    <img src="cartelera/gremlins.jpg" alt="abc" class="w-100">
 		  </div>
 		  <div class="events_1i1i1 clearfix position-absolute bottom-0 text-center w-100">
-		    <h6 class="mb-0"><a class="button_1" href="https://docs.google.com/forms/d/e/1FAIpQLSdAboKja-YKT1cBRc2huBX4oe9o-W__s1myEuFU6tPScEx_WA/viewform?usp=sf_link">Reservar ahora </a></h6>
+		    <h6 class="mb-0"><a class="button_1" href="https://forms.gle/dzseVBQwzsb4KGRD6">Reservar ahora </a></h6>
 		  </div>
 		 </div>
 		 <div class="events_1i2 clearfix p-3 pt-4 pb-4 bg-light">
-		  <h5 class="text-uppercase"><a href="https://forms.gle/cME7RUXiFRkSGoVp6">Harry Potter</a></h5>
+		  <h5 class="text-uppercase"><a href="https://forms.gle/dzseVBQwzsb4KGRD6">Gremlins</a></h5>
 		  
 			 <hr>
-			 <h6 class="mb-0">10 Noviembre <span class="pull-right">22:00</span></h6>
+			 <h6 class="mb-0">Diciembre <span class="pull-right">22:00</span></h6>
 		 </div>
 		</div>
 		<div class="col-md-4">
 		 <div class="events_1i1 clearfix position-relative">
 		  <div class="events_1i1i clearfix">
-		    <img src="cartelera/barbie.jpg" alt="abc" class="w-100">
+		    <img src="cartelera/homealone.jpg" alt="abc" class="w-100">
 		  </div>
 		  <div class="events_1i1i1 clearfix position-absolute bottom-0 text-center w-100">
-		    <h6 class="mb-0"><a class="button_1" href="https://docs.google.com/forms/d/e/1FAIpQLSdAboKja-YKT1cBRc2huBX4oe9o-W__s1myEuFU6tPScEx_WA/viewform?usp=sf_link">Reservar ahora </a></h6>
+		    <h6 class="mb-0"><a class="button_1" href="https://forms.gle/dzseVBQwzsb4KGRD6">Reservar ahora </a></h6>
 		  </div>
 		 </div>
 		 <div class="events_1i2 clearfix p-3 pt-4 pb-4 bg-light">
-		  <h5 class="text-uppercase"><a href="https://forms.gle/cME7RUXiFRkSGoVp6">Barbie</a></h5>
+		  <h5 class="text-uppercase"><a href="https://forms.gle/dzseVBQwzsb4KGRD6">Solo en casa</a></h5>
 		  
 			 <hr>
-			 <h6 class="mb-0">17 Noviembre <span class="pull-right">22:00</span></h6>
+			 <h6 class="mb-0">Diciembre <span class="pull-right">22:00</span></h6>
 		 </div>
 		</div>
 	   </div>
@@ -1135,17 +1149,17 @@
 	    <div class="col-md-4">
 		 <div class="events_1i1 clearfix position-relative">
 		  <div class="events_1i1i clearfix">
-		    <img src="cartelera/caballeroOscuro.jpg" alt="abc" class="w-100">
+		    <img src="cartelera/polarExpress.jpg" alt="abc" class="w-100">
 		  </div>
 		  <div class="events_1i1i1 clearfix position-absolute bottom-0 text-center w-100">
-		    <h6 class="mb-0"><a class="button_1" href="https://docs.google.com/forms/d/e/1FAIpQLSdAboKja-YKT1cBRc2huBX4oe9o-W__s1myEuFU6tPScEx_WA/viewform">Reservar ahora </a></h6>
+		    <h6 class="mb-0"><a class="button_1" href="https://forms.gle/dzseVBQwzsb4KGRD6">Reservar ahora </a></h6>
 		  </div>
 		 </div>
 		 <div class="events_1i2 clearfix p-3 pt-4 pb-4 bg-light">
-		  <h5 class="text-uppercase"><a href="https://forms.gle/cME7RUXiFRkSGoVp6">El Caballero Oscuro</a></h5>
+		  <h5 class="text-uppercase"><a href="https://forms.gle/dzseVBQwzsb4KGRD6">Polar Express</a></h5>
 		  
 			 <hr>
-			 <h6 class="mb-0">14 Enero <span class="pull-right">22:00</span></h6>
+			 <h6 class="mb-0">Diciembre <span class="pull-right">22:00</span></h6>
 		 </div>
 		</div>
 		<!--
