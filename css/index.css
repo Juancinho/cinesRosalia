@@ -82,6 +82,27 @@ height:100%;
  }
 /*********************release_end****************/
 
+
+/*********************sugerencias****************/
+#sugerencia {
+  background-image: url(../img/fondosugerencias.jpg);
+  background-position: center;
+  }
+  .release_m{
+  padding-top:100px;
+  padding-bottom:100px;
+  background:#0000005e; 
+   }
+  .popular_m2 .play{
+  font-size:100px;
+  padding-top:130px; 
+   }
+  .popular_m2 {
+  background:#0000005e;
+  height:100%;  
+   }
+  /*********************sugerencias_end****************/
+  
 /*********************trend****************/
 #trend {
 background-image: url(../img/2.jpg);
