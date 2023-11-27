@@ -26,6 +26,7 @@ let snowfall = new Snowfall({
     zIndex: "1000" // z-index for the snowflakes canvas
 });
 ```
+
 All options are optional and have default values, which you can see in the file snowfall.js. You can create multiple objects of Snowfall with different options for different effects.
 
 ## License
